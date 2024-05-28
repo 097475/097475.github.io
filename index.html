@@ -2,6 +2,11 @@
 layout: default
 title: Matteo Belenchia
 ---
+ <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
 <body class="theme-base-0g">
 <h1>Matteo Belenchia</h1>
@@ -32,5 +37,9 @@ My hobbies include Weightlifting, cooking and various card games.
 * **M. Paccamiccio**, L. Mostarda. Reasoning about inter-procedural security requirements in IoT applications. *International Conference on Advanced Information Networking and Applications 2022*, [doi](https://doi.org/10.1007/978-3-030-99619-2_24)
 * F. Al-Turjman, D. Cacciagrano, L. Mostarda, **M. Paccamiccio**, Zaib Ullah. Reasoning about inter-procedural security requirements in IoT applications. 
 *Forthcoming Networks and Sustainability in the IoT Era 2020*, [doi](https://doi.org/10.1007/978-3-030-69431-9_9)
+
+
+<!-- Simply set the `src` attribute to your MD file and win -->
+<zero-md src="README.md"></zero-md>
 </body>
 
