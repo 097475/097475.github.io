@@ -251,9 +251,9 @@ a.sidebar-nav-item:focus {
 
 /* Indigo */
 .theme-base-0g .sidebar {
-  background-color: #4a0082;
+  background-color: #330099;
 }
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #4a0082;
+.theme-base-0g .content a,
+.theme-base-0g .related-posts li a:hover {
+  color: #330099;
 }
